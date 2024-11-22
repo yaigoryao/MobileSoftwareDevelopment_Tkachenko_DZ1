@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">dz1</string>
+
+    <string name="tb_label_text_tv">Выберите устройства для мониторинга</string>
+    <string name="wifi_tb_text">WIFI</string>
+    <string name="bluetooth_tb_text">Bluetooth</string>
+    <string name="gps_tb_text">GPS</string>
+</resources>

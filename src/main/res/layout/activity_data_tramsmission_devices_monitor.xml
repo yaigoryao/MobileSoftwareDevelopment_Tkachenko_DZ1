@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataTramsmissionDevicesMonitor"
+    android:orientation="vertical">
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:text="@string/tb_label_text_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:text="@string/wifi_tb_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ToggleButton
+        android:layout_margin="10dp"
+        android:id="@+id/wifi_tb"
+        android:textSize="20sp"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:text="@string/bluetooth_tb_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ToggleButton
+        android:layout_margin="10dp"
+        android:id="@+id/bluetooth_tb"
+        android:textSize="20sp"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:text="@string/gps_tb_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ToggleButton
+        android:layout_margin="10dp"
+        android:id="@+id/gps_tb"
+        android:textSize="20sp"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
